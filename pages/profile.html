@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Profile</title>
+
+<link rel="stylesheet" href="../css/profile.css">
+</head>
+
+<body>
+
+<div class="profile-container">
+
+<img src="../assets/images/user.png"
+class="profile-pic">
+
+<h2 id="profileName">
+User Name
+</h2>
+
+<p
+class="flat"
+id="profileFlat">
+
+Flat Number
+
+</p>
+
+<div class="info-card">
+
+<h3>Profession</h3>
+
+<p id="profileProfession">
+Profession
+</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Skills</h3>
+
+<p>
+Java, SQL, React, Node.js
+</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Languages</h3>
+
+<p>
+Tamil, English, Hindi
+</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Trust Score</h3>
+
+<p>⭐ 4.8 / 5</p>
+
+</div>
+
+<div class="menu-card"
+onclick="location.href='settings.html'">
+⚙️ Settings
+</div>
+
+<div class="menu-card"
+onclick="location.href='admin-dashboard.html'">
+👨‍💼 Admin Dashboard
+</div>
+
+<div class="menu-card logout"
+onclick="logout()">
+🚪 Logout
+</div>
+
+<div class="buttons">
+
+<button onclick="chatUser()">
+💬 Chat
+</button>
+
+<button onclick="callUser()">
+📞 Call
+</button>
+
+</div>
+
+</div>
+
+<script src="../js/profile.js"></script>
+
+</body>
+</html>

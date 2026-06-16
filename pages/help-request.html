@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Help Request</title>
+
+<link rel="stylesheet"
+href="../css/help-request.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🤝 Help Request</h1>
+
+</header>
+
+<div class="form-container">
+
+<input
+type="text"
+id="title"
+placeholder="Request Title">
+
+<select id="category">
+
+<option>Select Category</option>
+
+<option>Education</option>
+
+<option>Medical</option>
+
+<option>Technical</option>
+
+<option>Household</option>
+
+<option>Other</option>
+
+</select>
+
+<textarea
+id="description"
+placeholder="Describe your request">
+</textarea>
+
+<button onclick="submitRequest()">
+Submit Request
+</button>
+
+</div>
+
+<h2>Recent Requests</h2>
+
+<div id="requestList">
+
+</div>
+
+<script src="../js/help-request.js"></script>
+
+</body>
+</html>

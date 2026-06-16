@@ -1,0 +1,56 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background: linear-gradient(
+  90deg,
+  #3B82F6 0%,
+  #8B5CF6 50%,
+  #A855F7 100%
+);
+}
+
+.splash-container{
+text-align:center;
+color:white;
+}
+
+.logo{
+width:150px;
+height:150px;
+margin-bottom:20px;
+animation:zoom 2s infinite;
+}
+
+@keyframes zoom{
+
+0%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.1);
+}
+
+100%{
+transform:scale(1);
+}
+
+}
+
+h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+p{
+font-size:18px;
+}

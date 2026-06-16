@@ -6,7 +6,11 @@
 }
 
 body{
-    background:#f5f7ff;
+    background: linear-gradient(
+  90deg,
+  #E6ECF2 0%,
+  #EEEAF1 100%
+);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -46,7 +50,12 @@ button{
     padding:12px;
     border:none;
     border-radius:10px;
-    background:#4F46E5;
+    background: linear-gradient(
+  90deg,
+  #3B82F6 0%,   /* Blue */
+  #8B5CF6 50%,  /* Purple */
+  #A855F7 100%  /* Magenta Purple */
+);
     color:white;
     font-size:16px;
     cursor:pointer;
@@ -54,4 +63,20 @@ button{
 
 button:hover{
     background:#4338ca;
+}
+.signup {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #475569;
+}
+
+.signup a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup a:hover {
+    text-decoration: underline;
 }

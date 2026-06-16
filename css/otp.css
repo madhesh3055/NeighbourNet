@@ -1,0 +1,45 @@
+.logo{
+width:90px;
+height:90px;
+margin-bottom:15px;
+}
+
+p{
+margin-top:10px;
+margin-bottom:20px;
+color:gray;
+}
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#f5f7ff;
+font-family:Poppins,sans-serif;
+}
+
+.otp-card{
+background:white;
+padding:30px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.otp-box input{
+width:40px;
+height:50px;
+margin:5px;
+text-align:center;
+font-size:20px;
+}
+
+button{
+margin-top:20px;
+padding:12px 30px;
+background:#4F46E5;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}

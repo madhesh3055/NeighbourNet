@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>NeighbourNet Login</title>
-    <link rel="stylesheet" href="../css/login.css">
+<title>NeighbourNet Login</title>
+<link rel="stylesheet" href="../css/login.css">
 </head>
+
 <body>
 
-<div class="container">
+<div class="login-card">
 
-    <div class="login-card">
+<img src="../assets/logos/logo.png"
+     class="logo">
 
-        <h1>NeighbourNet</h1>
-        <p>Connect. Support. Grow Together.</p>
+<h1>NeighbourNet</h1>
 
-        <div class="language">
-            <select>
-                <option>English</option>
-                <option>Tamil</option>
-                <option>Hindi</option>
-                <option>Telugu</option>
-            </select>
-        </div>
+<p>Connect. Help. Grow Together.</p>
 
-        <input type="tel" placeholder="Enter Mobile Number">
 
-        <button onclick="sendOTP()">Send OTP</button>
 
-    </div>
+<input type="tel"
+placeholder="Enter Mobile Number">
 
-</div>
+<button onclick="sendOTP()">
+Send OTP
+</button>
+<p style="margin-top:15px;">
+
+Don't have an account?
+
+<a href="signup.html">
+Sign Up
+</a>
+
+</p>
+
+
+
 
 <script src="../js/login.js"></script>
 
